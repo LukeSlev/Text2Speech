@@ -1,12 +1,12 @@
 {
-  "name": "environment",
-  "version": "1.0.0",
-  "description": "___        ______     ____ _                 _  ___           / \\ \\      / / ___|   / ___| | ___  _   _  __| |/ _ \\         / _ \\ \\ /\\ / /\\___ \\  | |   | |/ _ \\| | | |/ _` | (_) |       / ___ \\ V  V /  ___) | | |___| | (_) | |_| | (_| |\\__, |      /_/   \\_\\_/\\_/  |____/   \\____|_|\\___/ \\__,_|\\__,_|  /_/   -----------------------------------------------------------------",
-  "main": "app.js",
+  "name": "starter-node-angular",
+  "main": "server.js",
   "dependencies": {
-    "body-parser": "^1.18.2",
-    "express": "^4.16.2",
+    "body-parser": "~1.4.2",
+    "express": "~4.5.1",
     "express-session": "^1.15.6",
+    "method-override": "~2.0.2",
+    "mongoose": "~4.8.1",
     "watson-developer-cloud": "^3.0.5"
   },
   "devDependencies": {},
